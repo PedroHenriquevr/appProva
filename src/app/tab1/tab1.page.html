@@ -1,35 +1,133 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
+
+    <ion-title size="large">
+      <ion-icon name="book-sharp"></ion-icon>
       Cursos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-accordion-group>
+  <ion-accordion-group expand="inset">
     <ion-accordion value="first">
-      <ion-item slot="header" >
-        <ion-label>First Accordion</ion-label>
+      <ion-item slot="header" color="roxo">
+        <i class="devicon-rust-plain"></i>
+        <ion-label>
+          Rust
+        </ion-label>
       </ion-item>
       <div class="ion-padding" slot="content">
-        First Content
+        <ion-list>
+          <ion-item>
+            <ion-label class="ion-text-wrap">
+              Curso Programação Rust Completo : do Zero ao Pleno!
+              <hr>
+              <p>Plataforma: Udemy</p>
+              <a href="https://www.udemy.com/course/curso-programacao-rust-completo-do-zero-ao-pleno/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Webindex_Catchall_la.PT_cc.BR&utm_term=_._ag_114148736799_._ad_485704569539_._de_c_._dm__._pl__._ti_dsa-525138004927_._li_9100753_._pd__._&gclid=CjwKCAjwu5yYBhAjEiwAKXk_eCoU9hjrReA9Rf8PpGWaX13SBLYLR67ZTJPudzhePq5pEutPD8xYvRoCaScQAvD_BwE"><p>Visitar</p></a>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label class="ion-text-wrap">
+              Rust: a linguagem de programação performática e segura
+              <hr>
+              <p>Plataforma: Alura</p>
+              <a href="https://www.alura.com.br/curso-online-rust-linguagem-programacao-performatica-segura"><p>Visitar</p></a>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>
+              Aprenda Rust
+              <hr>
+              <p>Plataforma: Rust-Lang</p>
+              <a href="https://www.rust-lang.org/pt-BR/learn">Visitar</a>
+            </ion-label>
+          </ion-item>
+        </ion-list>
       </div>
     </ion-accordion>
     <ion-accordion value="second">
-      <ion-item slot="header" color="light">
-        <ion-label>Second Accordion</ion-label>
+      <ion-item slot="header" color="roxo">
+        <i class="devicon-cplusplus-plain"></i>
+        <ion-label>C++</ion-label>
       </ion-item>
       <div class="ion-padding" slot="content">
-        Second Content
+        <ion-list>
+          <ion-item>
+            <ion-label class="ion-text-wrap">
+              Curso Completo de Linguagem C e C++ - Iniciante Ao Avançado
+              <hr>
+              <p>Plataforma: Udemy</p>
+              <a href="https://www.udemy.com/course/curso-completo-de-linguagem-c-iniciante-ao-avancado/"><p>Visitar</p></a>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label class="ion-text-wrap">
+              C++: Conhecendo a linguagem e a STL
+              <hr>
+              <p>Plataforma: Alura</p>
+              <a href="https://www.alura.com.br/curso-online-cpp-introducao-a-linguagem"><p>Visitar</p></a>
+            </ion-label>
+          </ion-item>
+        </ion-list>
       </div>
     </ion-accordion>
     <ion-accordion value="third">
-      <ion-item slot="header" color="light">
-        <ion-label>Third Accordion</ion-label>
+      <ion-item slot="header" color="roxo">
+        <i class="devicon-javascript-plain"></i>
+        <ion-label>Javascript</ion-label>
       </ion-item>
       <div class="ion-padding" slot="content">
-        Third Content
+        <ion-list>
+          <ion-item>
+            <ion-label class="ion-text-wrap">
+              JavaScript Algorithms and Data Structures
+              <hr>
+              <p>Plataforma: Freecodecamp</p>
+              <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"><p>Visitar</p></a>
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label class="ion-text-wrap">
+              JavaScript,Front-end
+              <hr>
+              <p>Plataforma: Alura</p>
+              <a href="https://www.alura.com.br/cursos-online-front-end/javascript"><p>Visitar</p></a>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="fourth">
+      <ion-item slot="header" color="roxo">
+        <i class="devicon-java-plain"></i>
+        <ion-label>Java</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+            Java 2022 COMPLETO: Do Zero ao Profissional + Projetos!
+            <hr>
+            <p>Plataforma: Udemy</p>
+            <a href="https://www.udemy.com/course/fundamentos-de-programacao-com-java/"><p>Visitar</p></a>
+          </ion-label>
+        </ion-item>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="fifth">
+      <ion-item slot="header" color="roxo">
+        <i class="devicon-mysql-plain"></i>
+        <ion-label>MySql</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+            Dominando Banco de Dados com MySQL
+            <hr>
+            <p>Plataforma: Udemy</p>
+            <a href="https://www.udemy.com/course/curso-mysql/"><p>Visitar</p></a>
+          </ion-label>
+        </ion-item>
       </div>
     </ion-accordion>
   </ion-accordion-group>

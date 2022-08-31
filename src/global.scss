@@ -24,6 +24,31 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  *{
+    font-family: 'Roboto', sans-serif;
+  }
+:root {
+	--ion-color-roxo: #7E2929;
+	--ion-color-roxo-rgb: 126,41,41;
+	--ion-color-roxo-contrast: #ffffff;
+	--ion-color-roxo-contrast-rgb: 255,255,255;
+	--ion-color-roxo-shade: #6f2424;
+	--ion-color-roxo-tint: #8b3e3e;
+}
+
+.ion-color-roxo {
+	--ion-color-base: var(--ion-color-roxo);
+	--ion-color-base-rgb: var(--ion-color-roxo-rgb);
+	--ion-color-contrast: var(--ion-color-roxo-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-roxo-contrast-rgb);
+	--ion-color-shade: var(--ion-color-roxo-shade);
+	--ion-color-tint: var(--ion-color-roxo-tint);
+}
+
+div[slot="content"] {
+  background: rgba(var(--ion-color-rose-rgb), 0.25)
+}
 
 ion-content {
   --background: rgb(17, 17, 17);
@@ -31,4 +56,13 @@ ion-content {
 ion-toolbar {
   --background: rgb(17, 17, 17);
   --color: #DCD7C9;
+}
+ion-title {
+  font-size: 35px;
+  display: flex;
+  justify-content: start;
+  ion-icon{
+    position: relative;
+    bottom: -6px;
+  }
 }
