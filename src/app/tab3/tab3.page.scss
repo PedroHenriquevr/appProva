@@ -1,6 +1,11 @@
 ion-content{
   --ion-background-color:rgb(17, 17, 17);
 }
+ion-list-header{
+ion-label{
+font-size: 25px;
+}
+}
 ion-select{
   background-color: rgb(17, 17, 17) ;
 }
@@ -14,5 +19,13 @@ ion-list-header{
 ion-label{
   h1{
     color: white;
+  }
+}
+ion-card{
+  ion-card-title{
+    color: white;
+  }
+  ion-card-content{
+    color: rgb(167, 167, 167);
   }
 }
